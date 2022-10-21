@@ -33,6 +33,7 @@ const NavMobile = () => {
                   activeClass='active'
                   smooth={true}
                   duration={500}
+                  offset={-50}
                   className='cursor-pointer transition-all'
                 >
                   {item.name}
