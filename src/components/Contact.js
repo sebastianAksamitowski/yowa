@@ -50,6 +50,7 @@ const Contact = () => {
             className='flex-1 flex flex-col justify-center pl-8'
             data-aos='fade-down'
             data-aos-delay='300'
+            data-aos-offset='0'
           >
             <h2 className='h2 mb-3 lg:mb-7'>
               Get in Touch With Us for Yoga Course.
@@ -65,6 +66,7 @@ const Contact = () => {
             className='flex-1 bg-white shadow-primary rounded-[20px] p-5 lg:p-10 flex flex-col gap-y-5 max-h-[600px] lg:-mt-20'
             data-aos='fade-up'
             data-aos-delay='300'
+            data-aos-offset='0'
           >
             <input
               className='form-control'
