@@ -26,14 +26,14 @@ const NavMobile = () => {
         >
           {navigation.map((item, index) => {
             return (
-              <li className='cursor-pointer' key={index}>
+              <li key={index}>
                 <Link
                   onClick={() => setIsOpen(!isOpen)}
                   to={item.name}
                   activeClass='active'
                   smooth={true}
                   duration={500}
-                  className='transition-all'
+                  className='cursor-pointer transition-all'
                 >
                   {item.name}
                 </Link>
